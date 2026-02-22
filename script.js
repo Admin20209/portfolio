@@ -239,9 +239,9 @@ const translations = {
         'contact-email': 'ebe.vandenhoorn@protonmail.com',
         'contact-phone': '+32 468 06 85 06',
         'contact-address': 'Nieuwsadpoort 53, 3960 Bree',
-        'contact-name-placeholder': 'Jouw naam',
-        'contact-email-placeholder': 'Jouw e-mail',
-        'contact-message-placeholder': 'Jouw bericht',
+        'contact-name-placeholder': 'Uw naam',        
+        'contact-email-placeholder': 'Uw e-mail',      
+        'contact-message-placeholder': 'Uw bericht',   
         'contact-send': 'Verstuur bericht',
         // Footer
         'footer-text': '2026. Gebouwd met doel.'
