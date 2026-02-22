@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebe – Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ebe</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav-about">About Me</a></li>
+                <li><a href="projects.html" data-i18n="nav-projects">Projects</a></li>
+                <li><a href="education.html" data-i18n="nav-education">Education</a></li>
+                <li><a href="contact.html" class="active" data-i18n="nav-contact">Contact</a></li>
+                <li><button class="lang-toggle" id="lang-toggle">NL</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h1 data-i18n="contact-title">Contact</h1>
+                <p data-i18n="contact-subtitle">Let's connect</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <span data-i18n="contact-email">ebe.vandenhoorn@protonmail.com</span></p>
+                    <p><i class="fas fa-phone"></i> <span data-i18n="contact-phone">+32 468 06 85 06</span></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="contact-address">Nieuwsadpoort 53, 3960 Bree</span></p>
+                    <!-- Social links removed as requested -->
+                </div>
+
+                <form class="contact-form" action="https://formspree.io/f/mdalwrkr" method="POST">
+                    <input type="text" name="name" data-i18n-placeholder="contact-name-placeholder" placeholder="Your Name" required>
+                    <input type="email" name="email" data-i18n-placeholder="contact-email-placeholder" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" data-i18n-placeholder="contact-message-placeholder" placeholder="Your Message" required></textarea>
+                    <button type="submit" data-i18n="contact-send">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p data-i18n="footer-text">2026. Built with purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

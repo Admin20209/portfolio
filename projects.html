@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebe - Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ebe</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav-about">About</a></li>
+                <li><a href="projects.html" class="active" data-i18n="nav-projects">Projects</a></li>
+                <li><a href="education.html" data-i18n="nav-education">Education</a></li>
+                <li><a href="contact.html" data-i18n="nav-contact">Contact</a></li>
+                <li><button class="lang-toggle" id="lang-toggle">NL</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h1 data-i18n="projects-title">Projects</h1>
+                <p data-i18n="projects-subtitle">Things I've built and worked on</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card" style="--card-index: 1;">
+                    <h3 data-i18n="project-greenpower">Greenpower Challenge Benelux</h3>
+                    <p class="date">2024 - present</p>
+                    <p data-i18n="project-greenpower-desc">With my school team, we design, build, and race an electric kit car. I work on the mechatronics: electrical system, motor control, and data logging.</p>
+                </div>
+
+                <div class="card" style="--card-index: 2;">
+                    <h3 data-i18n="project-swimming">Swimming volunteer</h3>
+                    <p class="date">2024 - present</p>
+                    <p data-i18n="project-swimming-desc">Teaching swimming lessons to children at De Meerkoet Bree. Helping kids gain confidence in the water.</p>
+                </div>
+
+                <div class="card" style="--card-index: 3;">
+                    <h3 data-i18n="project-kannet">Kannet sports camp</h3>
+                    <p class="date">2024 - present</p>
+                    <p data-i18n="project-kannet-desc">Volunteer at a sports camp for children with physical and mental disabilities. Organizing activities and ensuring everyone has a great time.</p>
+                </div>
+
+                <div class="card" style="--card-index: 4;">
+                    <h3 data-i18n="project-frigera">Week worker at Frigera</h3>
+                    <p class="date">29/7/2025 - 1/8/2025</p>
+                    <p data-i18n="project-frigera-desc">Helped with packing boxes and loading pallets during summer break.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p data-i18n="footer-text">2026. Built with purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebe - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ebe</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="active" data-i18n="nav-home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav-about">About Me</a></li>
+                <li><a href="projects.html" data-i18n="nav-projects">Projects</a></li>
+                <li><a href="education.html" data-i18n="nav-education">Education</a></li>
+                <li><a href="contact.html" data-i18n="nav-contact">Contact</a></li>
+                <li><button class="lang-toggle" id="lang-toggle">NL</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="hero-greeting">Hi, I'm Ebe</h1>
+                <p><span data-i18n="hero-prefix">I'm a</span> <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                <a href="about.html" class="btn" data-i18n="hero-btn">Explore my world</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer-text">2026. Built with purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

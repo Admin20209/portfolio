@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebe - Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ebe</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav-about">About</a></li>
+                <li><a href="projects.html" data-i18n="nav-projects">Projects</a></li>
+                <li><a href="education.html" class="active" data-i18n="nav-education">Education</a></li>
+                <li><a href="contact.html" data-i18n="nav-contact">Contact</a></li>
+                <li><button class="lang-toggle" id="lang-toggle">NL</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h1 data-i18n="education-title">Education</h1>
+                <p data-i18n="education-subtitle">My learning journey</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card" style="--card-index: 1;">
+                    <h3 data-i18n="edu-vuurvogel">De Vuurvogel</h3>
+                    <p class="date">2012 - 2021</p>
+                    <p data-i18n="edu-vuurvogel-desc">Nursery and primary school, Bree</p>
+                </div>
+
+                <div class="card" style="--card-index: 2;">
+                    <h3 data-i18n="edu-kindsheid">Kindsheid Jesu</h3>
+                    <p class="date">2021 - 2023</p>
+                    <p data-i18n="edu-kindsheid-desc">Secondary education, Hasselt - STEM techniques, art & creation, media & welfare</p>
+                </div>
+
+                <div class="card" style="--card-index: 3;">
+                    <h3 data-i18n="edu-tism">TISM - Mechatronics</h3>
+                    <p class="date">2023 - present</p>
+                    <p data-i18n="edu-tism-desc">Secondary education, Bree - Focus on mechatronics: mechanics, electronics, and programming.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p data-i18n="footer-text">2026. Built with purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebe – About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ebe</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                <li><a href="about.html" class="active" data-i18n="nav-about">About Me</a></li>
+                <li><a href="projects.html" data-i18n="nav-projects">Projects</a></li>
+                <li><a href="education.html" data-i18n="nav-education">Education</a></li>
+                <li><a href="contact.html" data-i18n="nav-contact">Contact</a></li>
+                <li><button class="lang-toggle" id="lang-toggle">NL</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h1 data-i18n="about-title">About Me</h1>
+                <p data-i18n="about-subtitle">Mechatronics student, competitive swimmer, theater enthusiast, Wattpad writer</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about-p1">Hi, I'm Ebe van den Hoorn, a mechatronics student at TISM with a passion for technology, creativity, and human connection. I love building things that matter - whether it's a robot, a stage character, or a personal best in the pool.</p>
+                    <p data-i18n="about-p2">I'm a curious and dedicated person who enjoys learning new skills and taking on challenges. I believe in clear communication, teamwork, and always giving my best.</p>
+                    <p>
+                        <span data-i18n="about-wattpad">I also write fiction on Wattpad under the pen name </span>
+                        <a href="https://www.wattpad.com/user/LysanderNightshade" target="_blank" class="wattpad-link" data-i18n="wattpad-link">Lysander Nightshade</a>.
+                    </p>
+
+                    <div class="interests">
+                        <h3 data-i18n="about-interests">Interests</h3>
+                        <div class="interest-tags">
+                            <span data-i18n="interest-drama">🎭 Word and drama lab</span>
+                            <span data-i18n="interest-music">🎵 Music</span>
+                            <span data-i18n="interest-swim">🏊‍♂️ Swimming (competitive)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-list">
+                    <h3 data-i18n="skills-title">Skills & qualities</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="skill-ict">ICT</span></li>
+                        <li><i class="fas fa-comments"></i> <span data-i18n="skill-communicate">Clear and effective communication</span></li>
+                        <li><i class="fas fa-exchange-alt"></i> <span data-i18n="skill-feedback">Giving and receiving feedback</span></li>
+                        <li><i class="fas fa-handshake"></i> <span data-i18n="skill-conflict">Conflict resolution</span></li>
+                        <li><i class="fas fa-heart"></i> <span data-i18n="skill-respect">Respect for others</span></li>
+                        <li><i class="fas fa-clock"></i> <span data-i18n="skill-deadlines">Meeting deadlines</span></li>
+                        <li><i class="fas fa-tasks"></i> <span data-i18n="skill-responsibility">Taking responsibility</span></li>
+                        <li><i class="fas fa-lightbulb"></i> <span data-i18n="skill-initiative">Showing initiative</span></li>
+                        <li><i class="fas fa-dumbbell"></i> <span data-i18n="skill-perseverance">Perseverance</span></li>
+                    </ul>
+
+                    <h3 style="margin-top: 2rem;" data-i18n="languages-title">Languages</h3>
+                    <ul>
+                        <li><i class="fas fa-language"></i> <span data-i18n="lang-nl">Dutch – Fluent</span></li>
+                        <li><i class="fas fa-language"></i> <span data-i18n="lang-en">English – Fluent</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p data-i18n="footer-text">2026. Built with purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
